@@ -72,12 +72,6 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './public/index.html',
     }),
-    ...(prod
-      ? []
-      : new MFLiveReloadPlugin({
-          container: 'portfolio',
-          port: 8080,
-        })),
     new web.DefinePlugin({
       API_URL: prod
         ? JSON.stringify(process.env.API_URL)
