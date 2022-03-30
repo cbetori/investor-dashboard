@@ -9,6 +9,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "4RI4SkvoOdHWvltF9G5yi/4VOdk=",
+			"path": "github.com/buger/jsonparser",
+			"revision": "a6f867eb7787e4ec54536b77b5d628ddf5c4f73d",
+			"revisionTime": "2021-11-25T20:41:29Z"
+		},
+		{
+			"checksumSHA1": "6IOz35uowi1YblD64snwYOZBTn0=",
+			"path": "github.com/felixge/httpsnoop",
+			"revision": "42c30f944879059639bcf7b2ca4aba06f4a83198",
+			"revisionTime": "2021-03-18T18:28:26Z"
+		},
+		{
 			"checksumSHA1": "r21png+dOpKHByUJzEFbLIeI/W4=",
 			"path": "github.com/gorilla/handlers",
 			"revision": "3e030244b4ba0480763356fc8ca0ade6222e2da0",
