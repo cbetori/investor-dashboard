@@ -1,1 +1,1 @@
-web: bin/ACA-Dashboard
+web: bin/Investor-Dashboard
