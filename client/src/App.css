@@ -1,0 +1,40 @@
+.navside {
+  max-width: 200;
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.autoMargin {
+  margin: auto;
+}
+.navlink {
+  color: #8c959e;
+}
+
+.navlink:hover {
+  color: white;
+}
+
+.navlink::selection {
+  color: white;
+}
+
+.mainContainer {
+  border-bottom: 1px solid grey;
+  font-size: 26px;
+}
+
+#store {
+  height: 100%;
+}
+#store:first {
+  height: 100%;
+}
+
+.ant-layout-sider-trigger {
+  position: relative;
+}

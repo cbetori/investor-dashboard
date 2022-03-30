@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"heroku": {
+		"goVersion": "go1.12.8",
+		"install": [
+			"./..."
+		]
+	},
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "r21png+dOpKHByUJzEFbLIeI/W4=",
+			"path": "github.com/gorilla/handlers",
+			"revision": "3e030244b4ba0480763356fc8ca0ade6222e2da0",
+			"revisionTime": "2020-09-12T19:21:07Z"
+		},
+		{
+			"checksumSHA1": "JVOPksyhZ9do2NQ2p7SfO2vHkNo=",
+			"path": "github.com/mattn/go-sqlite3",
+			"revision": "2df077b74c66723d9b44d01c8db88e74191bdd0e",
+			"revisionTime": "2022-02-23T02:27:20Z"
+		},
+		{
+			"checksumSHA1": "oCH3J96RWvO8W4xjix47PModpio=",
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": "4def268fd1a49955bfb3dda92fe3db4f924f2285",
+			"revisionTime": "2019-07-01T08:59:26Z"
+		},
+		{
+			"checksumSHA1": "q+XI9g44wd9mYvf3S5Wo8YZjAus=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "4def268fd1a49955bfb3dda92fe3db4f924f2285",
+			"revisionTime": "2019-07-01T08:59:26Z"
+		}
+	],
+	"rootPath": "ACA-Dashboard"
+}
