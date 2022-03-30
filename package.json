@@ -4,7 +4,8 @@
     "server": "go run server.go",
     "server-fresh": "cd vendor && fresh",
     "start-dev": "concurrently - kill-others \"npm run server \" \"npm run client\"",
+    "build-client": "cd client && npm run build",
     "install": "cd client && npm i && npm i --dev",
-    "postinstall": "cd client && npm run build-client"
+    "postinstall": "npm run build-client"
   }
 }
